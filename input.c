@@ -5,7 +5,7 @@ int main()
     int num;
 
     printf( "Please enter a number: " );
-    scanf( "%d", &num ); // the ampersand (&) operator accesses memory direction
+    scanf( "%d", &num ); // the ampersand (&) operator accesses memory location
     if ( num > 0 )
         printf( "The number is positive.\n" );
     else if ( num < 0 )
