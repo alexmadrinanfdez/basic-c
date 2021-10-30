@@ -4,4 +4,5 @@ Basic examples of the `C` programming language usage. Modified from [this C tuto
 
 - `hello.c`: a must in every programming language.
 - `input.c`: accepts as input an integer given by the user.
-- `loop.c`: equivalent example for every loop.
+- `flow-ctrl.c`: flow control structures (`if else` and loops) and statements (`continue` and `break`).
+- `switch-case.c`: compare a variable to several _integral_ (integer) values.
