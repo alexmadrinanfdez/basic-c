@@ -15,7 +15,7 @@ int convert( union coins change );
 int main()
 {
     union coins change;
-    printf("Enter coins:\n");
+    printf("Enter number of coins:\n");
     for (int i = 0; i < sizeof(change) / sizeof(int); ++i) {
         scanf("%i", change.tcoins + i); // BAD code! input is always suspect!
     }

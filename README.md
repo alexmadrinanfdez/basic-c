@@ -14,3 +14,4 @@ Modified from [this C tutorial](https://www.cprogramming.com/tutorial/c-tutorial
     + `ptr.c`: simple pointer operations and intuition. Includes `malloc()`.
     + `array.c`: array creation, access and modification.
     + `struct-union`: demonstrates the use of both, structures and unions, including anonymous definition.
+    + `string.c`: arrays of `char`s and some common functions from `string.h`.
