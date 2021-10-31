@@ -9,3 +9,5 @@ Basic examples of the `C` programming language usage. Modified from [this C tuto
     + `input.c`: accepts as input an integer given by the user.
     + `flow-ctrl.c`: flow control structures (`if else` and loops) and statements (`continue` and `break`).
     + `switch-case.c`: compare a variable to several _integral_ (integer) values.
+- `builtin`
+    + `ptr.c`: simple pointer operations and intuition. Includes `malloc()`.
