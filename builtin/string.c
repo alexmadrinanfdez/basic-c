@@ -6,6 +6,7 @@
 // char *strcat ( char *dest, const char *src );
 // char *strcpy ( char *dest, const char *src );
 // char *strncpy ( char *dest, const char *src, size_t len );
+// char *strncat ( char *dest, const char *src, size_t len );
 // size_t strlen ( const char *s );
 
 void strip_newline( char *str, int size )

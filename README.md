@@ -1,7 +1,11 @@
 # basic-c
 
 Basic examples of the `C` programming language usage.
-Modified from [this C tutorial](https://www.cprogramming.com/tutorial/c-tutorial.html).
+Modified from these tutorials:
+- [x] [learn-c.org](https://learn-c.org/)
+- [x] [Cprogramming.com](https://www.cprogramming.com/tutorial/c-tutorial.html)
+- [ ] [tutorialspoint](https://www.tutorialspoint.com/cprogramming/index.htm)
+- [ ] [GeeksforGeeks](https://www.geeksforgeeks.org/c-programming-language/)
 
 ## Structure
 
