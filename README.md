@@ -11,3 +11,4 @@ Basic examples of the `C` programming language usage. Modified from [this C tuto
     + `switch-case.c`: compare a variable to several _integral_ (integer) values.
 - `builtin`
     + `ptr.c`: simple pointer operations and intuition. Includes `malloc()`.
+    + `array.c`: array creation, access and modification.
