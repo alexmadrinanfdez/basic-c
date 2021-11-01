@@ -17,8 +17,9 @@ Modified from these tutorials:
 - `builtin`
     + `ptr.c`: simple pointer operations and intuition. Includes `malloc()`.
     + `array.c`: array creation, access and modification.
-    + `struct-union`: demonstrates the use of both, structures and unions, including anonymous definition.
+    + `struct-union.c`: demonstrates the use of both, structures and unions.
     + `string.c`: arrays of `char`s and some common functions from `string.h`.
 - `io`
     + `file-io.c`: read and write from text and binary files.
     + `typecast.c`: prints the first half (original) of the ASCII table.
+    + `cmd-args.c`: prints the via standard output the file specified as an argument.
