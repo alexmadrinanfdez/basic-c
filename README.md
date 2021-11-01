@@ -11,7 +11,7 @@ Modified from these tutorials:
 
 - `intro`
     + `hello.c`: a must in every programming language.
-    + `input.c`: accepts as input an integer given by the user.
+    + `input.c`: accepts as input an integer given by the user and transforms it to an ASCII character.
     + `flow-ctrl.c`: flow control structures (`if else` + loops) and statements (`continue` + `break`).
     + `switch-case.c`: compare a variable to several _integral_ (integer) values.
 - `builtin`
@@ -20,4 +20,5 @@ Modified from these tutorials:
     + `struct-union`: demonstrates the use of both, structures and unions, including anonymous definition.
     + `string.c`: arrays of `char`s and some common functions from `string.h`.
 - `io`
-    + `file-io`: read and write from text and binary files.
+    + `file-io.c`: read and write from text and binary files.
+    + `typecast.c`: prints the first half (original) of the ASCII table.

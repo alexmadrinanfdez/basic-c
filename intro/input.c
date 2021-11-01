@@ -6,6 +6,9 @@ int main()
 
     printf( "Please enter a number: " );
     scanf( "%d", &num ); // ampersand (&) is the address-of operator
-    printf( "You entered %d", num );
+    if (num > 255)
+        printf("Too large! Choose a value below 256");
+    else
+        printf( "The ASCII symbol associated is %c", num );
     return 0;
 }
