@@ -1,6 +1,6 @@
 # basic-c
 
-Basic (and **not** sot basic) examples of the `C` programming language.
+Basic (and **not** so basic) examples of the `C` programming language.
 Modified from these tutorials:
 - [x] [learn-c.org](https://learn-c.org/)
 - [x] [Cprogramming.com](https://www.cprogramming.com/tutorial/c-tutorial.html)
@@ -26,3 +26,5 @@ Modified from these tutorials:
     + `cmd-args.c`: prints the via standard output the file specified as an argument.
 - `data-structs`
     + `linked-list.c`: an array that can grow and shrink as needed, from any point in the array. Definition and methods.
+    + `inf-recursion.c`: how many simultaneous processes can a `C` program open on the machine?
+    + `recursive.c`: canonical recursion example implementing the `factorial()` function.
