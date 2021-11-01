@@ -24,3 +24,5 @@ Modified from these tutorials:
     + `file-io.c`: read and write from text and binary files.
     + `typecast.c`: prints the first half (original) of the ASCII table.
     + `cmd-args.c`: prints the via standard output the file specified as an argument.
+- `data-structs`
+    + `linked-list.c`: an array that can grow and shrink as needed, from any point in the array. Definition and methods.
