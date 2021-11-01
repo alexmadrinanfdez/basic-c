@@ -29,8 +29,8 @@ int main()
 {
     FILE *fp_txt;
     FILE *fp_bin;
-    char *fn_txt = ".\\test.txt";
-    char *fn_bin = ".\\test.bin";
+    char *fn_txt = ".\\file.txt";
+    char *fn_bin = ".\\file.bin";
     char x[10] =  "abcdefghij";
     char y[10];
     char z[10];
@@ -53,9 +53,13 @@ int main()
     fread(z, sizeof(z[0]), sizeof(z)/sizeof(z[0]), fp_bin);
     fclose(fp_bin);
     
-    if (strcmp(y, z) == 0)
+    if (strcmp(y, z) == 0) {
         printf("Reading and writing works!\n");
-    else
-        printf("The text file is %s and has a length of %i chars\n", y, strlen(y));
-        printf("The binary file is %s and has a length of %i chars\n", z, strlen(z));
+        return 0;
+    }
+    else {
+        printf("The text file is '%s' and has a length of %i chars\n", y, strlen(y));
+        printf("The binary file is '%s' and has a length of %i chars\n", z, strlen(z));
+        return 1;
+    }
 }
