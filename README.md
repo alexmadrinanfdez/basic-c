@@ -19,3 +19,5 @@ Modified from these tutorials:
     + `array.c`: array creation, access and modification.
     + `struct-union`: demonstrates the use of both, structures and unions, including anonymous definition.
     + `string.c`: arrays of `char`s and some common functions from `string.h`.
+- `io`
+    + `file-io`: read and write from text and binary files.
