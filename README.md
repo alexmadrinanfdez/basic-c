@@ -29,3 +29,4 @@ Modified from these tutorials:
     + `inf-recursion.c`: how many simultaneous processes can a `C` program open on the machine?
     + `recursive.c`: canonical recursion example implementing the `factorial()` function.
     + `var-arg-list.c`: function that accepts a variable number of arguments (`va_list` type and `stdarg.h` library).
+    + `bin-tree.c`: each node has at most two children (left and right). Binary trees are used for efficient searching and sorting. Definition and methods.
