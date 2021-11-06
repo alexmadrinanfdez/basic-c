@@ -27,39 +27,39 @@ a(b)+ - append, open or create for update */
 
 int main()
 {
-    FILE *fp_txt;
-    FILE *fp_bin;
+    FILE *fp_txt, *fp_bin;
     char *fn_txt = ".\\file.txt";
     char *fn_bin = ".\\file.bin";
-    char x[10] =  "abcdefghij";
+    /* C-style strings are always terminated with a null ('\0') character */
+    char x[10] =  "abcdefghi";
     char y[10];
     char z[10];
 
     // write
-    fp_txt = fopen(fn_txt, "w");  // text
-    fprintf(fp_txt, "abcdefghij");
+    fp_txt = fopen(fn_txt, "w");
+    fprintf(fp_txt, x);
     fclose(fp_txt);
 
-    fp_bin = fopen(fn_bin, "wb"); // binary
+    fp_bin = fopen(fn_bin, "wb");
     fwrite(x, sizeof(x[0]), sizeof(x)/sizeof(x[0]), fp_bin);
     fclose(fp_bin);
 
     // read
-    fp_txt = fopen(fn_txt, "r");  // text
+    fp_txt = fopen(fn_txt, "r");
     fscanf(fp_txt, "%s", y);
     fclose(fp_txt);
     
-    fp_bin = fopen(fn_bin, "rb"); // binary
+    fp_bin = fopen(fn_bin, "rb");
     fread(z, sizeof(z[0]), sizeof(z)/sizeof(z[0]), fp_bin);
     fclose(fp_bin);
     
     if (strcmp(y, z) == 0) {
-        printf("Reading and writing works!\n");
+        printf("File streams mastered!\n");
         return 0;
     }
     else {
         printf("The text file is '%s' and has a length of %i chars\n", y, strlen(y));
         printf("The binary file is '%s' and has a length of %i chars\n", z, strlen(z));
-        return 1;
+        return -1;
     }
 }

@@ -1,5 +1,5 @@
 # executable files
 *.exe
 # io side effects
-io/*.bin
-io/*.txt
+io/file.bin
+io/file.txt
